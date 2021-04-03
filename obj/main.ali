@@ -1,0 +1,119 @@
+V "GNAT Lib v2019"
+M P W=b
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_ALLOCATORS
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_IO
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_LOCAL_ALLOCATORS
+RV NO_STANDARD_ALLOCATORS_AFTER_ELABORATION
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK_05
+
+U main%b		main.adb		d9352c1c NE OO SU
+W ada%s			ada.ads			ada.ali
+Z ada.exceptions%s	a-except.adb		a-except.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W dcola%s		dcola.adb		dcola.ali
+Z system%s		system.ads		system.ali
+Z system.concat_2%s	s-conca2.adb		s-conca2.ali
+Z system.exception_table%s  s-exctab.adb	s-exctab.ali
+Z system.standard_library%s  s-stalib.adb	s-stalib.ali
+
+D ada.ads		20190518041256 76789da1 ada%s
+D a-except.ads		20190518041256 291912d5 ada.exceptions%s
+D a-inteio.ads		20190518041258 f64b89a4 ada.integer_text_io%s
+D a-ioexce.ads		20190518041256 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20190518041256 119b8fb3 ada.streams%s
+D a-tags.ads		20190518041258 491b781d ada.tags%s
+D a-textio.ads		20190518041258 aef4d56d ada.text_io%s
+D a-tiinio.ads		20190518041256 390edddb ada.text_io.integer_io%s
+D a-unccon.ads		20190518041256 0e9b276f ada.unchecked_conversion%s
+D dcola.ads		20210403215122 d49d8a9d dcola%s
+D dcola.adb		20210403215032 9444dfb1 dcola%b
+D interfac.ads		20190518041256 5ab55268 interfaces%s
+D i-cstrea.ads		20190518041256 e53d8b8e interfaces.c_streams%s
+D main.adb		20210403215336 5517fa48 main%b
+D system.ads		20190518041258 32a08138 system%s
+D s-conca2.ads		20190518041256 02a0d7d0 system.concat_2%s
+D s-crtl.ads		20190518041256 0ebbdb71 system.crtl%s
+D s-exctab.ads		20190518041256 54135002 system.exception_table%s
+D s-ficobl.ads		20190518041258 078245e4 system.file_control_block%s
+D s-parame.ads		20190518041258 48ec542b system.parameters%s
+D s-secsta.ads		20190518041258 20bbe636 system.secondary_stack%s
+D s-soflin.ads		20190518041256 a7318a92 system.soft_links%s
+D s-stache.ads		20190518041258 a37c21ec system.stack_checking%s
+D s-stalib.ads		20190518041258 09bd3940 system.standard_library%s
+D s-stoele.ads		20190518041258 2dc34a04 system.storage_elements%s
+D s-traent.ads		20190518041256 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20190518041256 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20190518041256 1b7d22d2 system.wch_con%s
+G a e
+G c Z b b [main standard 6 11 none]
+G r i none [main standard 6 11 none] [dcola standard 10 9 none]
+X 1 ada.ads
+16K9*Ada 20e8 14|2r6 2r23 4r6 4r31
+X 3 a-inteio.ads
+18K13*Integer_Text_IO[8|46] 14|4w10 4r35
+X 7 a-textio.ads
+57K13*Text_IO 727e16 14|2w10 2r27
+64P9*File_Type 14|20r43 29r43 39r45 94r16
+66n23*In_File{66E9} 14|23r20
+114U14*Open 14|23s7
+129U14*Close 14|32s7
+264U14*New_Line 14|25s7 34s7 68s7 79s10 83s13 97s4 99s4 103s4 108s4 115s4
+. 128s7 131s7
+312V13*End_Of_File{boolean} 14|109s16
+465U14*Put 14|76s10
+471U14*Get_Line 14|41s7
+508U14*Put_Line 14|66s10 82s13 98s4 127s7 130s7 133s2
+X 8 a-tiinio.ads
+59U14*Get 14|78s10[3|18]
+X 10 dcola.ads
+10k9*dcola 67e10 14|3w6 16r34
+16R9 cola 14|45r38[16] 91r9[16]
+25U14 cvacia 14|102s4[16]
+28U14 poner 14|59s13[16] 113s7[16]
+31U14 borrar_primero 14|57s13[16] 65s10[16] 125s4[16]
+34V13 coger_primero{14|11R9} 14|55s24[16] 62s20[16] 123s15[16]
+37V13 esta_vacia{boolean} 14|126s12[16]
+42V13 is_last_item{boolean} 14|51s19[16]
+X 14 main.adb
+6U11*Main 6b11 134l5 134t9
+9A12 tnom{string}<integer> 12r12
+11R9 tjugador 14e14 16r40 39r69 48r16 93r12
+12a7 nom{9A12} 41m33 66r55 130r53
+13i7 l{natural} 41m46 66r72 130r71
+16K12 dcola_tjugador[10|10] 17r8
+20U14 obrirFitxer 20b14 20=27 26l8 26t19 105s4
+20p27 entrada{7|64P9} 23m12
+29U14 tancarFitxer 29b14 29=27 35l8 35t20 117s4
+29p27 entrada{7|64P9} 32m13
+39U14 llegirLiniaFitxer 39b14 39>33 39<56 42l8 42t25 111s7
+39p33 entrada{7|64P9} 41r16
+39r56 jugador{11R9} 41m25 41r25 41m38 41r38
+45U14 tractament 45b14 45=26 45>44 69l8 69t18 121s4
+45r26 coa{10|16R9[16]} 51r32 55r38 57m28 59m19 62r34 65m25
+45i44 numPassades{natural} 53r24
+48r7 jugador{11R9} 55m13 59r24 62m10 66r47 66r64
+53i14 i{integer}
+72U14 obtenirNumeroPassades 72b14 72<36 88l8 88t29 119s4
+72i36 numPassades{integer} 78m14 81r13
+73b7 correcte{boolean} 75r17 85m19
+91r4 coa{10|16R9[16]} 102m11 113m13 113r13 121m15 121r15 123r29 125m19 125r19
+. 126r23
+92i4 numPasades{integer} 119m26 121r20
+93r4 jugador{11R9} 111m37 113r17 123m4 130r45 130r63
+94p4 fichero_in{7|64P9} 105m16 105r16 109r28 111r25 117m17 117r17
+

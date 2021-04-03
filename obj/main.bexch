@@ -1,0 +1,20 @@
+[GENERATED OBJECT FILE]
+b__main.o
+[PROJECT FILES]
+C:\Users\MiquelVidal\OneDrive - Universitat de les Illes Balears\Escriptori\2Carrea\EstructuraDades\PROBLEMA_JOSEP\problema_josep.gpr
+20210403215014
+[BOUND OBJECT FILES]
+C:\Users\MiquelVidal\OneDrive - Universitat de les Illes Balears\Escriptori\2Carrea\EstructuraDades\PROBLEMA_JOSEP\obj\dcola.o
+C:\Users\MiquelVidal\OneDrive - Universitat de les Illes Balears\Escriptori\2Carrea\EstructuraDades\PROBLEMA_JOSEP\obj\main.o
+[GENERATED SOURCE FILES]
+b__main.ads
+b__main.adb
+b__main.ali
+[RESULTING OPTIONS]
+-LC:\Users\MiquelVidal\OneDrive - Universitat de les Illes Balears\Escriptori\2Carrea\EstructuraDades\PROBLEMA_JOSEP\obj\
+-LC:\Users\MiquelVidal\OneDrive - Universitat de les Illes Balears\Escriptori\2Carrea\EstructuraDades\PROBLEMA_JOSEP\obj\
+-LC:/gnat/2019/lib/gcc/x86_64-pc-mingw32/8.3.1/adalib/
+-static
+-static-libgcc
+C:/gnat/2019/lib/gcc/x86_64-pc-mingw32/8.3.1/adalib/libgnat.a
+-Wl,--stack=0x2000000

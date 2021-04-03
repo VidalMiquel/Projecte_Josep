@@ -1,0 +1,8 @@
+project Problema_Josep is
+
+   for Source_Dirs use ("src");
+   for Object_Dir use "obj";
+   for Main use ("dcola", "main.adb");
+
+end Problema_Josep;
+
