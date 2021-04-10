@@ -1,0 +1,22 @@
+[MAPPING FILE]
+C:\Users\mique\AppData\Local\Temp\GNAT-TEMP-000013.TMP
+[TOOLCHAIN VERSION]
+ada
+GNAT 2019
+[MAIN BASE NAME]
+dcola
+[COMPILER PATH]
+c:\users\mique\desktop\estrucutra_de_dades\bin\gcc.exe
+[COMPILER LEADING SWITCHES]
+-c
+-x
+ada
+-gnatA
+[MAIN DEPENDENCY FILE]
+C:\Users\mique\Desktop\PORJECTE_JOSEP\Projecte_Josep\obj\dcola.ali
+[DEPENDENCY FILES]
+[BINDING OPTIONS]
+gnatbind_prefix=
+[PROJECT FILES]
+C:\Users\mique\Desktop\PORJECTE_JOSEP\Projecte_Josep\problema_josep.gpr
+20210410170720

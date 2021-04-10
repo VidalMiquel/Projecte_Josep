@@ -18,8 +18,8 @@ U dcola%b		dcola.adb		40d9552c NE OO PK GE IL
 
 U dcola%s		dcola.ads		d49d8a9d BN EE NE OO PK GE IL
 
-D dcola.ads		20210403215122 d49d8a9d dcola%s
-D dcola.adb		20210403215032 9444dfb1 dcola%b
+D dcola.ads		20210410170720 d49d8a9d dcola%s
+D dcola.adb		20210410170720 9444dfb1 dcola%b
 D system.ads		20190518041258 32a08138 system%s
 G a e
 G c Z s b [dcola standard 10 9 none]
