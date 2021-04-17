@@ -1,16 +1,68 @@
 <?xml version="1.0"?>
 <Locations >
+<<<<<<< HEAD
+  <Project >
+=======
   <Project>
+<<<<<<< HEAD
     <vfs_file />
+=======
+    <vfs_file>C:\Users\MiquelVidal\OneDrive - Universitat de les Illes Balears\Escriptori\2Carrea\EstructuraDades\PROBLEMA_JOSEP\problema_josep.gpr</vfs_file>
+>>>>>>> 3b738125e888dc51fd59ef86e29e43f2d7f17be0
+    <file_marker column=" 13" line=" 9" >
+      <vfs_project />
+      <vfs_file>C:\Users\MiquelVidal\OneDrive - Universitat de les Illes Balears\Escriptori\2Carrea\EstructuraDades\PROBLEMES_ADN\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\MiquelVidal\OneDrive - Universitat de les Illes Balears\Escriptori\2Carrea\EstructuraDades\PROBLEMA_DE_JOSEP\porblemajosep.gpr</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\MiquelVidal\OneDrive - Universitat de les Illes Balears\Escriptori\2Carrea\EstructuraDades\PROBLEMA_DE_JOSEP\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\MiquelVidal\OneDrive - Universitat de les Illes Balears\Escriptori\2Carrea\EstructuraDades\PROBLEMA_DE_JOSEP\src\dcola.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\MiquelVidal\OneDrive - Universitat de les Illes Balears\Escriptori\2Carrea\EstructuraDades\PROBLEMA_DE_JOSEP\src\dcola.adb</vfs_file>
+    </file_marker>
+>>>>>>> d733de67de93017bb5af5849ee25d2cbabe0f360
     <file_marker column=" 1" line=" 1" >
       <vfs_project />
       <vfs_file>C:\Users\mique\Desktop\PORJECTE_JOSEP\Projecte_Josep\src\main.adb</vfs_file>
     </file_marker>
     <file_marker column=" 1" line=" 1" >
       <vfs_project />
+<<<<<<< HEAD
       <vfs_file>C:\Users\mique\Desktop\PORJECTE_JOSEP\Projecte_Josep\src\dcola.adb</vfs_file>
+=======
+      <vfs_file>C:\Users\MiquelVidal\OneDrive - Universitat de les Illes Balears\Escriptori\2Carrea\EstructuraDades\PROBLEMA_DE_JOSEP\src\main.adb</vfs_file>
     </file_marker>
-    <file_marker current="true" column=" 1" line=" 1" >
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\MiquelVidal\OneDrive - Universitat de les Illes Balears\Escriptori\2Carrea\EstructuraDades\PROBLEMA_JOSEP\problema_josep.gpr</vfs_project>
+      <vfs_file>C:\Users\MiquelVidal\OneDrive - Universitat de les Illes Balears\Escriptori\2Carrea\EstructuraDades\PROBLEMA_JOSEP\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\MiquelVidal\OneDrive - Universitat de les Illes Balears\Escriptori\2Carrea\EstructuraDades\PROBLEMA_DE_JOSEP\src\dcola.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\MiquelVidal\OneDrive - Universitat de les Illes Balears\Escriptori\2Carrea\EstructuraDades\PROBLEMA_DE_JOSEP\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\MiquelVidal\OneDrive - Universitat de les Illes Balears\Escriptori\2Carrea\EstructuraDades\PROBLEMA_JOSEP\problema_josep.gpr</vfs_project>
+      <vfs_file>C:\Users\MiquelVidal\OneDrive - Universitat de les Illes Balears\Escriptori\2Carrea\EstructuraDades\PROBLEMA_JOSEP\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\MiquelVidal\OneDrive - Universitat de les Illes Balears\Escriptori\2Carrea\EstructuraDades\PROBLEMA_JOSEP\problema_josep.gpr</vfs_project>
+      <vfs_file>C:\Users\MiquelVidal\OneDrive - Universitat de les Illes Balears\Escriptori\2Carrea\EstructuraDades\PROBLEMA_JOSEP\src\dcola.adb</vfs_file>
+>>>>>>> d733de67de93017bb5af5849ee25d2cbabe0f360
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
       <vfs_project />
       <vfs_file>C:\Users\mique\Desktop\PORJECTE_JOSEP\Projecte_Josep\src\main.adb</vfs_file>
     </file_marker>
@@ -28,6 +80,58 @@
     <file_marker current="true" column=" 1" line=" 1">
       <vfs_project >C:\Users\mique\Desktop\PORJECTE_JOSEP\Projecte_Josep\problema_josep.gpr</vfs_project>
       <vfs_file >C:\Users\mique\Desktop\PORJECTE_JOSEP\Projecte_Josep\src\main.adb</vfs_file>
+    </file_marker>
+<<<<<<< HEAD
+    <file_marker column=" 1" line=" 1" >
+=======
+    <file_marker column=" 1" line=" 92" >
+>>>>>>> 3b738125e888dc51fd59ef86e29e43f2d7f17be0
+      <vfs_project>C:\Users\MiquelVidal\OneDrive - Universitat de les Illes Balears\Escriptori\2Carrea\EstructuraDades\PROBLEMA_JOSEP\problema_josep.gpr</vfs_project>
+      <vfs_file>C:\Users\MiquelVidal\OneDrive - Universitat de les Illes Balears\Escriptori\2Carrea\EstructuraDades\PROBLEMA_JOSEP\src\dcola.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\MiquelVidal\OneDrive - Universitat de les Illes Balears\Escriptori\2Carrea\EstructuraDades\PROBLEMA_JOSEP\problema_josep.gpr</vfs_project>
+      <vfs_file>C:\Users\MiquelVidal\OneDrive - Universitat de les Illes Balears\Escriptori\2Carrea\EstructuraDades\PROBLEMA_JOSEP\src\dcola.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\MiquelVidal\OneDrive - Universitat de les Illes Balears\Escriptori\2Carrea\EstructuraDades\PROBLEMA_DE_JOSEP\src\dcola.ads</vfs_file>
+    </file_marker>
+<<<<<<< HEAD
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\MiquelVidal\OneDrive - Universitat de les Illes Balears\Escriptori\2Carrea\EstructuraDades\PROBLEMA_JOSEP\problema_josep.gpr</vfs_project>
+      <vfs_file>C:\Users\MiquelVidal\OneDrive - Universitat de les Illes Balears\Escriptori\2Carrea\EstructuraDades\PROBLEMA_JOSEP\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\MiquelVidal\OneDrive - Universitat de les Illes Balears\Escriptori\2Carrea\EstructuraDades\PROBLEMA_JOSEP\problema_josep.gpr</vfs_project>
+      <vfs_file>C:\Users\MiquelVidal\OneDrive - Universitat de les Illes Balears\Escriptori\2Carrea\EstructuraDades\PROBLEMA_JOSEP\src\dcola.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\MiquelVidal\OneDrive - Universitat de les Illes Balears\Escriptori\2Carrea\EstructuraDades\PROBLEMA_JOSEP\problema_josep.gpr</vfs_project>
+      <vfs_file>C:\Users\MiquelVidal\OneDrive - Universitat de les Illes Balears\Escriptori\2Carrea\EstructuraDades\PROBLEMA_JOSEP\src\dcola.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\MiquelVidal\OneDrive - Universitat de les Illes Balears\Escriptori\2Carrea\EstructuraDades\PROBLEMA_JOSEP\problema_josep.gpr</vfs_project>
+      <vfs_file>C:\Users\MiquelVidal\OneDrive - Universitat de les Illes Balears\Escriptori\2Carrea\EstructuraDades\PROBLEMA_JOSEP\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 33" line=" 97" >
+      <vfs_project>C:\Users\MiquelVidal\OneDrive - Universitat de les Illes Balears\Escriptori\2Carrea\EstructuraDades\PROBLEMA_JOSEP\problema_josep.gpr</vfs_project>
+      <vfs_file>C:\Users\MiquelVidal\OneDrive - Universitat de les Illes Balears\Escriptori\2Carrea\EstructuraDades\PROBLEMA_JOSEP\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 6" line=" 95" >
+      <vfs_project>C:\Users\MiquelVidal\OneDrive - Universitat de les Illes Balears\Escriptori\2Carrea\EstructuraDades\PROBLEMA_JOSEP\problema_josep.gpr</vfs_project>
+      <vfs_file>C:\Users\MiquelVidal\OneDrive - Universitat de les Illes Balears\Escriptori\2Carrea\EstructuraDades\PROBLEMA_JOSEP\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 13" line=" 96" >
+      <vfs_project>C:\Users\MiquelVidal\OneDrive - Universitat de les Illes Balears\Escriptori\2Carrea\EstructuraDades\PROBLEMA_JOSEP\problema_josep.gpr</vfs_project>
+      <vfs_file>C:\Users\MiquelVidal\OneDrive - Universitat de les Illes Balears\Escriptori\2Carrea\EstructuraDades\PROBLEMA_JOSEP\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker current="true" column=" 13" line=" 96" >
+=======
+    <file_marker current="true" column=" 1" line=" 1" >
+>>>>>>> 3b738125e888dc51fd59ef86e29e43f2d7f17be0
+      <vfs_project>C:\Users\MiquelVidal\OneDrive - Universitat de les Illes Balears\Escriptori\2Carrea\EstructuraDades\PROBLEMA_JOSEP\problema_josep.gpr</vfs_project>
+      <vfs_file>C:\Users\MiquelVidal\OneDrive - Universitat de les Illes Balears\Escriptori\2Carrea\EstructuraDades\PROBLEMA_JOSEP\src\main.adb</vfs_file>
     </file_marker>
   </Project>
 </Locations>

@@ -236,11 +236,11 @@ package body ada_main is
    end;
 
 --  BEGIN Object file/option list
-   --   C:\Users\mique\Desktop\PORJECTE_JOSEP\Projecte_Josep\obj\dcola.o
-   --   C:\Users\mique\Desktop\PORJECTE_JOSEP\Projecte_Josep\obj\main.o
-   --   -LC:\Users\mique\Desktop\PORJECTE_JOSEP\Projecte_Josep\obj\
-   --   -LC:\Users\mique\Desktop\PORJECTE_JOSEP\Projecte_Josep\obj\
-   --   -LC:/users/mique/desktop/estrucutra_de_dades/lib/gcc/x86_64-pc-mingw32/8.3.1/adalib/
+   --   C:\Users\MiquelVidal\OneDrive - Universitat de les Illes Balears\Escriptori\2Carrea\EstructuraDades\PROBLEMA_JOSEP\obj\dcola.o
+   --   C:\Users\MiquelVidal\OneDrive - Universitat de les Illes Balears\Escriptori\2Carrea\EstructuraDades\PROBLEMA_JOSEP\obj\main.o
+   --   -LC:\Users\MiquelVidal\OneDrive - Universitat de les Illes Balears\Escriptori\2Carrea\EstructuraDades\PROBLEMA_JOSEP\obj\
+   --   -LC:\Users\MiquelVidal\OneDrive - Universitat de les Illes Balears\Escriptori\2Carrea\EstructuraDades\PROBLEMA_JOSEP\obj\
+   --   -LC:/gnat/2019/lib/gcc/x86_64-pc-mingw32/8.3.1/adalib/
    --   -static
    --   -lgnat
    --   -Wl,--stack=0x2000000
