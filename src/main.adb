@@ -29,37 +29,31 @@ procedure Main is
       Close(entrada);
    end tancarFitxer;
 
-   --Mètode que realitza la lectura d'una linia des del fitxer i ho
-   --emmagatzema a una varibale de tipus tjugador.
-   procedure llegirLiniaFitxer (entrada: in File_Type; jugador: out tjugador) is
-   begin
-      Get_Line(entrada, jugador.nom, jugador.l);
-   end llegirLiniaFitxer;
-
    --Mètode que duu a terme la funcionalitat del problema de Josep.
    procedure tractament (coa: in out cola; numPassades: in Natural) is
-      --Declaració varibale tjugador per poder relaitzar el
+      --Declaració varibale tjugador per poder realitzar el
       --tractament correctament.
       jugador: tjugador;
    begin
       --Mentres la coa NO estigui formada NOMÉS per un node, iteram.
       while (not (is_last_item(coa))) loop
-         --Recorrem la coa.
+         --Recorrem la coa "numPassades" vegades.
          for i in 1 .. numPassades loop
-            --Obtenim el jugadro que ocupa la primera posició dins la coa.
+            --Obtenim el jugador* que ocupa la primera posició dins la coa.
             jugador := coger_primero(coa);
             --Borram el primer jugador de la coa.
             borrar_primero(coa);
-            --Inserim el jugador obtingut anteriorment, al final de la coa.
+            --Inserim el jugador obtingut anteriorment*, al final de la coa.
             poner(coa, jugador);
          end loop;
          --Obtenim el jugador a eliminar de la coa.
          jugador :=coger_primero(coa);
+         --Print clarificatiu del jugador eliminat.
+         Put_Line("El jugador eliminat és: " &jugador.nom(1 .. jugador.l));
          --Borram el jugador de la coa una vagada realitzada el nombre de
          --passades indicat per teclat.
          borrar_primero(coa);
-         --Print clarificatiu del jugador eliminat.
-         Put_Line("El jugador eliminat és: " &jugador.nom(1 .. jugador.l));
+
       end loop;
       New_Line;
    end tractament;
@@ -70,20 +64,16 @@ procedure Main is
       --introduït és correcte.
       correcte: Boolean:= false;
    begin
-      while not correcte loop
          Put("Introdueix el nombre de passades a realitzar: ");
          --Obtenim el nombre de passades a realitzar.
          Get(numPassades);
          New_Line;
          --Comprovació de la validesa del nombre de passades a fer.
-         if(numPassades < 0) then
-            Put_Line("Nombre de passades introduides no vàlid.");
-            New_Line;
-         else
-            --Nombre de passades correcte.
-                  correcte:= True;
-         end if;
-      end loop;
+      if(numPassades < 0) then
+         Put_Line("Nombre de passades introduides no vàlid.");
+         New_Line;
+         obtenirNumeroPassades(numPassades);
+      end if;
    end obtenirNumeroPassades;
 
    --Declaracions de varibales
@@ -103,7 +93,7 @@ begin
    --Lectura i posterior emmagatzament del jugador llegit dins la coa.
    while (not (End_Of_File(fichero_in))) loop
       --Lectura d'un jugador des del fitxer especificat.
-      llegirLiniaFitxer(fichero_in, jugador);
+      Get_Line(fichero_in, jugador.nom, jugador.l);
       --L'introduim dins la coa.
       poner(coa,jugador);
    end loop;
